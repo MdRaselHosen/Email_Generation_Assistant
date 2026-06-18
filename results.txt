@@ -1,0 +1,40 @@
+
+
+Running Model A: meta-llama/llama-3.1-8b-instruct
+[model_a] Scenario 1/10: Follow up after a sales meeting
+[model_a] Scenario 2/10: Request for proposal details from a vendor
+[model_a] Scenario 3/10: Quick team update on project status
+[model_a] Scenario 4/10: Urgent notice about a slipping deadline
+[model_a] Scenario 5/10: Decline a partnership request
+[model_a] Scenario 6/10: Schedule an informal coffee chat
+[model_a] Scenario 7/10: Send a comprehensive project proposal with many details
+[model_a] Scenario 8/10: Brief thank-you note after an interview
+[model_a] Scenario 9/10: Follow up after meeting someone at a conference
+[model_a] Scenario 10/10: Escalate a delayed shipment issue to a client
+[model_a] Saved results to /Users/raselhosen/Desktop/Email Generation Assistant/src/../results/results_model_a.csv
+
+Running Model B: mistralai/mistral-small-24b-instruct-2501
+[model_b] Scenario 1/10: Follow up after a sales meeting
+[model_b] Scenario 2/10: Request for proposal details from a vendor
+[model_b] Scenario 3/10: Quick team update on project status
+[model_b] Scenario 4/10: Urgent notice about a slipping deadline
+[model_b] Scenario 5/10: Decline a partnership request
+[model_b] Scenario 6/10: Schedule an informal coffee chat
+[model_b] Scenario 7/10: Send a comprehensive project proposal with many details
+[model_b] Scenario 8/10: Brief thank-you note after an interview
+[model_b] Scenario 9/10: Follow up after meeting someone at a conference
+[model_b] Scenario 10/10: Escalate a delayed shipment issue to a client
+[model_b] Saved results to /Users/raselhosen/Desktop/Email Generation Assistant/src/../results/results_model_b.csv
+
+
+=== Average Scores (0-100) ===
+Metric                         A (meta-llama/llama-3.1-8b-instruct) B (mistralai/mistral-small-24b-instruct-2501)
+fact_recall_score                         90.0            83.3
+tone_alignment_score                      77.5            77.5
+structural_quality_score                  97.5            96.7
+
+Biggest fact-recall gap: Scenario 8 (Brief thank-you note after an interview)
+  A (meta-llama/llama-3.1-8b-instruct): 0.0   B (mistralai/mistral-small-24b-instruct-2501): 100.0
+
+
+
