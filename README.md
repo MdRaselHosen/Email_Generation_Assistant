@@ -103,12 +103,15 @@ email-assistant/
 │   └── compare.py            # Model A vs Model B summary
 ├── results/                  # CSV outputs land here after running evaluate.py
 └── report/
-    └── REPORT_TEMPLATE.md    # skeleton for the final report deliverable
+    └── raw_results.md    # skeleton for the final report deliverable
+   └── comparativeAnalysis.md  
+   └── definationAndLogic.md    
+   └── evaluation_report.md 
 ```
 
 ## Writing the final report
 
-`report/REPORT_TEMPLATE.md` already contains the prompt template and
+`report/` already contains the prompt template and
 metric definitions. After running `evaluate.py` and `compare.py`, paste
 your CSV data and fill in the analysis section, then export to PDF or
 Google Docs.
