@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a sales meeting",
+    "facts": [
+      "Met on Tuesday to discuss the Q3 partnership proposal",
+      "Client requested a revised pricing sheet",
+      "Next call scheduled for Friday at 2 PM"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Following Up on Our Q3 Partnership Discussion\n\nDear {RECEIVER_NAME},\n\nThank you for taking the time to meet on Tuesday to discuss the Q3 partnership proposal. As requested, I will prepare a revised pricing sheet and send it over ahead of our next conversation.\n\nI have scheduled our follow-up call for Friday at 2 PM to review the updated terms together. Please let me know if this time still works on your end.\n\nI look forward to continuing the discussion.\n\nBest regards,\n{SENDER_NAME}"
+  },
+  {
+    "id": 2,
+    "intent": "Request for proposal details from a vendor",
+    "facts": [
+      "Need detailed cost breakdown for the cloud migration project",
+      "Deadline for proposal submission is July 10",
+      "Looking for SLA terms and support response times"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Request for Detailed Proposal \u2013 Cloud Migration Project\n\nDear {RECEIVER_NAME},\n\nWe are preparing to evaluate vendors for our upcoming cloud migration project and would appreciate a detailed proposal from your team.\n\nSpecifically, we would like a full cost breakdown for the engagement, along with your standard SLA terms and expected support response times. Please submit your proposal no later than July 10 so that we can complete our review on schedule.\n\nThank you for your attention to this request, and please reach out if you need any additional information from us.\n\nSincerely,\n{SENDER_NAME}"
+  },
+  {
+    "id": 3,
+    "intent": "Quick team update on project status",
+    "facts": [
+      "Backend API is 90% complete",
+      "Frontend team blocked on design assets",
+      "Demo planned for next Monday"
+    ],
+    "tone": "casual",
+    "reference_email": "Subject: Quick Project Update\n\nHey team,\n\nQuick update \u2014 the backend API is about 90% done, so we're in good shape there. The frontend side is currently blocked waiting on design assets, so let's sync on that soon.\n\nWe're aiming to have a demo ready for next Monday, so let's push to clear that blocker before then.\n\nLet me know if you hit any snags!\n\nThanks,\n{SENDER_NAME}"
+  },
+  {
+    "id": 4,
+    "intent": "Urgent notice about a slipping deadline",
+    "facts": [
+      "Final report due tomorrow at 5 PM",
+      "Two sections still missing data",
+      "Need sign-off from finance before submission"
+    ],
+    "tone": "urgent",
+    "reference_email": "Subject: URGENT: Final Report Due Tomorrow at 5 PM\n\nHi {RECEIVER_NAME},\n\nI wanted to flag that the final report is due tomorrow at 5 PM, and we still have two sections missing data. We also need finance sign-off before it can be submitted.\n\nCould you help get the outstanding data filled in today, and can we get finance's review started as soon as possible? Time is tight, so any help moving this along would be greatly appreciated.\n\nThanks so much,\n{SENDER_NAME}"
+  },
+  {
+    "id": 5,
+    "intent": "Decline a partnership request",
+    "facts": [
+      "Budget for new partnerships is frozen until next fiscal year",
+      "Appreciate the detailed proposal they sent",
+      "Open to revisiting the conversation in Q1"
+    ],
+    "tone": "empathetic",
+    "reference_email": "Subject: Regarding Your Partnership Proposal\n\nDear {RECEIVER_NAME},\n\nThank you for the thoughtful and detailed proposal you put together \u2014 it's clear a great deal of care went into it, and I genuinely enjoyed reviewing it.\n\nUnfortunately, our budget for new partnerships is frozen until the next fiscal year, so we are not able to move forward at this time. That said, I would very much like to revisit this conversation in Q1, when our plans for the year are clearer.\n\nThank you again for thinking of us, and I hope we can pick this back up soon.\n\nWarm regards,\n{SENDER_NAME}"
+  },
+  {
+    "id": 6,
+    "intent": "Schedule an informal coffee chat",
+    "facts": [
+      "Want to catch up about the new role",
+      "Free Wednesday or Thursday afternoon",
+      "Suggest the caf\u00e9 near the office"
+    ],
+    "tone": "casual",
+    "reference_email": "Subject: Coffee this week?\n\nHey {RECEIVER_NAME},\n\nIt's been a while \u2014 would love to catch up and hear how the new role is going! I'm free Wednesday or Thursday afternoon if either works for you.\n\nWant to grab coffee at the caf\u00e9 near the office?\n\nLet me know what works!\n\n{SENDER_NAME}"
+  },
+  {
+    "id": 7,
+    "intent": "Send a comprehensive project proposal with many details",
+    "facts": [
+      "Project timeline is 12 weeks",
+      "Total budget estimate is $45,000",
+      "Team will include 2 developers and 1 designer",
+      "Weekly progress reports will be provided",
+      "Kickoff meeting proposed for next Monday"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Project Proposal \u2013 Timeline, Budget, and Team Structure\n\nDear {RECEIVER_NAME},\n\nPlease find below an overview of the proposed project.\n\nWe anticipate a 12-week timeline, with a total budget estimate of $45,000. The team will consist of two developers and one designer, and we will provide weekly progress reports throughout the engagement to keep you informed.\n\nWe would like to propose a kickoff meeting for next Monday to align on goals and next steps. Please let us know if this timing works for you.\n\nWe look forward to your feedback.\n\nBest regards,\n{SENDER_NAME}"
+  },
+  {
+    "id": 8,
+    "intent": "Brief thank-you note after an interview",
+    "facts": [
+      "Interviewed for the Marketing Coordinator role on Monday",
+      "Enjoyed discussing the summer campaign plans"
+    ],
+    "tone": "formal",
+    "reference_email": "Subject: Thank You \u2013 Marketing Coordinator Interview\n\nDear {RECEIVER_NAME},\n\nThank you for taking the time to speak with me on Monday about the Marketing Coordinator role. I really enjoyed our discussion about the upcoming summer campaign plans and learning more about the team's goals.\n\nI'm excited about the opportunity and look forward to hearing from you about next steps.\n\nBest regards,\n{SENDER_NAME}"
+  },
+  {
+    "id": 9,
+    "intent": "Follow up after meeting someone at a conference",
+    "facts": [
+      "Met at the TechSummit conference",
+      "Discussed potential collaboration on data tools",
+      "Promised to send a case study by next week"
+    ],
+    "tone": "friendly",
+    "reference_email": "Subject: Great Meeting You at TechSummit\n\nHi {RECEIVER_NAME},\n\nIt was great meeting you at TechSummit and chatting about a possible collaboration on data tools \u2014 I think there's a lot of potential there.\n\nAs promised, I'll send over a relevant case study by next week so you can get a better sense of how we've approached similar projects.\n\nTalk soon,\n{SENDER_NAME}"
+  },
+  {
+    "id": 10,
+    "intent": "Escalate a delayed shipment issue to a client",
+    "facts": [
+      "Shipment was due last Friday and has not arrived",
+      "Carrier confirms it is delayed by 3 days",
+      "A discount on the next order is being offered as compensation"
+    ],
+    "tone": "urgent but professional",
+    "reference_email": "Subject: Update on Your Delayed Shipment\n\nDear {RECEIVER_NAME},\n\nI want to give you a prompt update regarding your shipment, which was originally due last Friday and has not yet arrived. We've confirmed with the carrier that it is delayed by three days.\n\nWe understand this is frustrating, and as a gesture of goodwill, we'd like to offer a discount on your next order. We're closely monitoring the shipment and will update you as soon as it's on its way.\n\nPlease let us know if there's anything else we can do in the meantime.\n\nSincerely,\n{SENDER_NAME}"
+  }
+]
