@@ -1,0 +1,127 @@
+scenario_id,intent,tone,generated_email,fact_recall_score,tone_alignment_score,structural_quality_score
+1,Follow up after a sales meeting,formal,"Subject: Follow-Up on Tuesday's Q3 Partnership Discussion
+
+Dear Md. Rasel Hosen,
+
+Thank you for taking the time to meet on Tuesday to discuss the Q3 partnership proposal. I am writing to confirm that I will have the revised pricing sheet ready for your review by tomorrow's call.
+
+As a reminder, our next meeting is scheduled for this Friday at 2 PM. Please let me know if there are any additional details or clarifications you need before then.
+
+Best regards,
+SG Service",100.0,75.0,100.0
+2,Request for proposal details from a vendor,formal,"Subject: Request for Proposal Details for Cloud Migration Project
+
+Dear Md. Rasel Hosen,
+
+I am writing to request a more detailed proposal for the upcoming cloud migration project. Please include a comprehensive cost breakdown that outlines all associated expenses.
+
+Additionally, I would appreciate it if you could provide the Service Level Agreement (SLA) terms and the expected support response times. Your proposal should be submitted by July 10 to ensure timely consideration.
+
+Thank you for your prompt attention to this request. I look forward to reviewing your detailed proposal.
+
+Best regards,
+SG Service",100.0,75.0,100.0
+3,Quick team update on project status,casual,"Subject: Quick Project Update
+
+Hi Md. Rasel Hosen,
+
+Just a quick update on where we stand:
+
+The backend API is almost there at 90% complete. The frontend team is making good progress but is currently blocked waiting for the design assets. I've reached out to the design team to see if we can expedite those.
+
+We're still on track for our demo next Monday, so fingers crossed that everything comes together smoothly.
+
+Best,
+SG Service",100.0,75.0,100.0
+4,Urgent notice about a slipping deadline,urgent,"Subject: Urgent: Action Required on Final Report
+
+Hi Md. Rasel Hosen,
+
+I need to urgently bring your attention to the final report. While it is due tomorrow at 5 PM, we are currently missing data for two sections. This is a critical setback and we need it resolved. This means we need the necessary sign off from finance before we can submit the final report.
+
+Please prioritize this and let me know if there's anything you need from my end to expedite the process. Thank you for your immediate attention to this matter.",100.0,100.0,100.0
+5,Decline a partnership request,empathetic,"Subject: Update on Our Partnership Discussion
+
+Dear Md. Rasel Hosen,
+
+Thank you for taking the time to send over the detailed proposal for our partnership. We appreciate the effort and thought that went into it.
+
+I wanted to inform you that, due to our current budget constraints, we have had to freeze any new partnerships until the start of the next fiscal year.  We are genuinely disappointed to have to let you know that we won't be able to move forward with this at the moment.
+
+However, we would like to leave the door open and revisit this conversation in Q1. We’re very interested in the potential of what you have proposed, and we hope that you’ll still be available to discuss things further at that time.
+
+Thank you for your understanding.
+
+Best regards,
+SG Service",100.0,75.0,100.0
+6,Schedule an informal coffee chat,casual,"Subject: Quick Coffee Catch-up?
+
+Hey Md. Rasel Hosen,
+
+Hope you're doing well! I'd love to grab a coffee and chat about your new role. I'm free this Wednesday or Thursday afternoon. How about we meet at the café near the office?  Let me know what works best for you.
+
+Best,
+SG Service",33.3,75.0,100.0
+7,Send a comprehensive project proposal with many details,formal,"Subject: Comprehensive Project Proposal for Your Review
+
+Dear Md. Rasel Hosen,
+
+I am pleased to submit the following proposal for our upcoming project, which outlines the scope, timeline, budget, and team structure. Your review and feedback are greatly appreciated.
+
+Project Overview
+The project will span 12 weeks, with a total estimated budget of $45,000. Our team will consist of 2 experienced developers and 1 dedicated designer, ensuring high-quality deliverables throughout the project lifecycle.
+
+Project Timeline
+- Kickoff Meeting: Proposed for next Monday
+- Weekly Progress Reports: To be provided every Friday, detailing accomplishments, upcoming tasks, and any potential roadblocks
+- Milestones: Key milestones will be set at weeks 4, 8, and 12, with deliverables reviewed and approved by your team
+
+Team Structure
+- 2 Developers: Responsible for backend and frontend development, API integration, and database management
+- 1 Designer: Focused on UI/UX design, ensuring a seamless user experience and adherence to your brand guidelines
+
+Budget Breakdown
+The total budget of $45,000 is allocated as follows:
+- Development: $30,000
+- Design: $10,000
+- Project Management and Contingency: $5,000
+
+Next Steps
+Please review the proposal, and let me know if you have any questions or concerns. I look forward to our kickoff meeting next Monday and to collaborating with your team on this exciting project.
+
+Best regards,
+
+SG Service",100.0,75.0,91.5
+8,Brief thank-you note after an interview,formal,"Subject: Thank You for the Marketing Coordinator Interview
+
+Dear Md. Rasel Hosen,
+
+Thank you for taking the time to interview me for the Marketing Coordinator role on Monday. It was a pleasure to discuss the upcoming summer campaign plans and learn more about the exciting projects your team is working on.
+
+I appreciate the opportunity and look forward to the possibility of contributing to your team.
+
+Best regards,
+
+SG Service",100.0,75.0,100.0
+9,Follow up after meeting someone at a conference,friendly,"Subject: Following Up on Our TechSummit Discussion
+
+Hi Md. Rasel Hosen,
+
+It was great to meet you at TechSummit last week! I enjoyed our conversation about potential collaboration on data tools and think there's some exciting potential there.
+
+As promised, I'll send over the case study by next week. In the meantime, if you have any specific questions or need further information, please don't hesitate to reach out.
+
+Looking forward to staying in touch!
+
+Best,
+SG Service",100.0,75.0,100.0
+10,Escalate a delayed shipment issue to a client,urgent but professional,"It seems that you are asking for an extension in the context.
+
+Email format to provide a detailed explanation.
+Thank you for clarifying your message:
+Example: Respond, and any issues with the final delivery
+
+You can provide detailed explanation. Here is the end of the email provided.
+
+Thank you for your clarity and politeness.",0.0,75.0,75.0
+AVERAGE,,,,83.3,77.5,96.7
